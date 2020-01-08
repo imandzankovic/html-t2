@@ -1,6 +1,16 @@
+body {
+  width: 960px;
+  margin: 20px auto;
+}
+
+header {
+  border-bottom: 1px solid gray;
+  padding: 8px 0 8px 0;
+}
+
 nav {
   height: 100%;
-  width: 5cm;
+  width: 6cm;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -8,26 +18,38 @@ nav {
   background-color: rgb(87, 2, 90);
   overflow-x: hidden;
   padding-top: 60px;
-  transition: 0.5s;
-}
-
-#wrapper {
-  margin-left: 270px;
-}
-#navbar {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#navbar a {
+
+nav a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  letter-spacing: 0.15cm;
   font-style: normal;
 }
-#navbar li {
+nav li {
   list-style: none;
+}
+
+a {
+  margin-right: 6px;
+}
+
+section {
+  display: inline-block;
+  width: 600px;
+  padding: 0 8px 0 0;
+  border-right: 1px solid gray;
+  margin-bottom: 8px;
+}
+
+aside {
+  display: inline-block;
+  width: 550px;
+  vertical-align: top;
+  margin-left: 50px;
 }
 
 p {
